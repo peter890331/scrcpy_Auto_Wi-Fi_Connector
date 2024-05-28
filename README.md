@@ -46,7 +46,7 @@ Here are some command steps can use to test the Wifi connection mode:
 
 Here are two commands used to check if a device is connected and how to disconnect it:
 - adb devices
-- adb dsconnect
+- adb disconnect
    
 Then here are two useful shortcuts to turn off the phone screen while connected:
 - Turn device screen off (keep mirroring):	MOD+o
