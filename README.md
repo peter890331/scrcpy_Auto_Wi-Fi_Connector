@@ -5,6 +5,8 @@ scrcpy_Auto_Wi-Fi_Connector, made by Peter Yu.
 > 
 > It automates the connection process, allowing users to easily establish a connection between their Android phone and Windows computer.
 
+ <img src= "https://github.com/peter890331/scrcpy_Auto_Wi-Fi_Connector/blob/figures/showcase.png" width="500px">
+
 ## Foreword
 ### scrcpy
 scrcpy ([Github][1], [scrcpy-win64-v2.0 download link][2]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.    
