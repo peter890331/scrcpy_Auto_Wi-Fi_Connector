@@ -30,7 +30,7 @@ Equipment and Software Requirements:
 ### Steps:
   1. Download scrcpy and unzip it.
   2. Download scrcpy_Auto_Wi-Fi_Connector.bat, then put it into the scrcpy folder.
-  3. Make sure your phone and your computer are on the same LAN, then make sure your phone is in Developer Options and turn on USB Debugging, If you don't know how to turn it on, there are many tutorials on the internet.
+  3. Make sure your phone and your computer are on the same LAN, then make sure your phone is in Developer Options and turn on USB Debugging, if you don't know how to turn it on, there are many tutorials on the internet.
   4. Double click on scrcpy_Auto_Wi-Fi_Connector.bat.
   5. 
      A. If there is an IP in the computer that is in a connectable state, that means you might have used earlier, then scrcpy_Auto_Wi-Fi_Connector.bat will automatically mirror the phone screen.
