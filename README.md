@@ -11,29 +11,32 @@ scrcpy_Auto_Wi-Fi_Connector, made by Peter Yu.
 ### scrcpy
 scrcpy ([Github][1], [scrcpy-win64-v2.0 download link][2]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.    
 
-However, when using TCP/IP connect mode, users are usually required to input some commands by cmd, which is not friendly and troublesome for some users.
+Although using the USB connect mode is very easy, just double click on scrcpy.exe.  
+However, when using TCP/IP connect mode on the same LAN, users are usually required to input some commands via cmd, which is not friendly and troublesome for some users.
 
 [1]: https://github.com/Genymobile/scrcpy
 [2]: https://github.com/Genymobile/scrcpy/releases/download/v2.0/scrcpy-win64-v2.0.zip
 
 ## Overview
-This bat file can simplify the process of complicated cmd setting when using TCP/IP connect mode. It will automatically determine whether there is an IP in the computer that is in a connectable state, if so, it will automatically mirror the phone screen, if not, then the user just needs to connect the phone to the computer via USB first and then enter the IP of the phone, it will automatically mirror the phone screen.
+This bat file can simplify the process of complicated cmd setting when using TCP/IP connect mode on the same LAN. It will automatically determine whether there is an IP in the computer that is in a connectable state, if so, it will automatically mirror the phone screen, if not, then the user just needs to connect the phone to the computer via USB first and then enter the IP of the phone, it will automatically mirror the phone screen. But only one phone can be used.
 
 Equipment and Software Requirements:
- 1. A Windows computer with scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
- 2. The Android phone that want to mirror.
+ 1. A Windows computer.
+ 2. scrcpy ([Github][2], [scrcpy-win64-v2.0 download link][3]), this application mirrors Android devices connected via USB or over TCP/IP, and allows to control the device with the keyboard and the mouse of the computer.
+ 3. An Android phone that want to mirror.
 
 ## How to use, For users
-  For users, you can directly download scrcpy_Auto_Wi-Fi_Connector.bat, then put it into the scrcpy folder, and click to use.
+  For users, you can directly download scrcpy_Auto_Wi-Fi_Connector.bat, then put it into the scrcpy folder, and double click to use.
 ### Steps:
   1. Download scrcpy and unzip it.
   2. Download scrcpy_Auto_Wi-Fi_Connector.bat, then put it into the scrcpy folder.
-  3. Double click on scrcpy_Auto_Wi-Fi_Connector.bat.
-  4. 
-     A. If there is an IP in the computer that is in a connectable state, that means you might have used earlier, then your phone will automatically mirror the phone screen.
+  3. Make sure your phone and your computer are on the same LAN, then make sure your phone is in Developer Options and turn on USB Debugging, If you don't know how to turn it on, there are many tutorials on the internet.
+  4. Double click on scrcpy_Auto_Wi-Fi_Connector.bat.
+  5. 
+     A. If there is an IP in the computer that is in a connectable state, that means you might have used earlier, then scrcpy_Auto_Wi-Fi_Connector.bat will automatically mirror the phone screen.
      
-     B. If there is not an IP in the computer that is in a connectable state, that means you haven't used earlier, then you just needs to connect your phone to your computer via USB first, and enable USB debug authorisation, then enter the IP of your phone, after that, disconnect your phone to your computer via USB within 10 seconds, then your phone will automatically mirror the phone screen.
-  5. Enjoy the convenience of scrcpy_Auto_Wi-Fi_Connector.bat.
+     B. If there is not an IP in the computer that is in a connectable state, that means you haven't used earlier, then you just needs to connect your phone to your computer via USB first, and enable USB Debugging authorisation, enter the IP of your phone, after that, disconnect your phone to your computer via USB within 10 seconds, then scrcpy_Auto_Wi-Fi_Connector.bat will automatically mirror the phone screen.
+  6. Enjoy the convenience of scrcpy_Auto_Wi-Fi_Connector.bat.
 
 ## Notes
 ### scrcpy
