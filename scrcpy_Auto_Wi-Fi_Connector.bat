@@ -6,7 +6,6 @@ cd /d "%~dp0"
 
 echo.
 echo Checking for connected WiFi devices ...
-echo.
 
 rem 檢查 adb devices 中是否已經有 WiFi 設備
 rem 執行 adb devices 並將結果存儲到變數中
@@ -22,6 +21,7 @@ for /f "tokens=*" %%i in ('adb devices') do (
 
 rem 檢查 adb devices 中是否找到 WiFi 設備
 if defined output (
+    echo.
     echo Connected WiFi device has been found: !output!
     echo.
     set "DEVICE_IP=!output: =!"
@@ -31,6 +31,7 @@ if defined output (
     echo.
 
 ) else (
+    echo.
     echo Connected WiFi device not found, 
     echo please connect phone to computer via USB first, and enable USB debug authorisation, 
     echo then please enter the IP address of the WiFi device manually.
