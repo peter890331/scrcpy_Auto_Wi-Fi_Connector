@@ -48,8 +48,8 @@ Here are some command steps can use to test the Wifi connection mode:
  4. scrcpy -t -b2M -m800
 
 Here are two commands used to check if a device is connected and how to disconnect it:
-- adb devices
-- adb disconnect
+ 1. adb devices
+ 2. adb disconnect
    
 Then here are two useful shortcuts to turn off the phone screen while connected:
 - Turn device screen off (keep mirroring):	MOD+o
